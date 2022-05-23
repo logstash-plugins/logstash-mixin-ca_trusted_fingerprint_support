@@ -4,3 +4,4 @@ import:
 matrix:
   include:
   - env: ELASTIC_STACK_VERSION=8.2.0 # last release pre-introduction of core CATrustedFingerprintSupport
+  - env: ELASTIC_STACK_VERSION=6.x
