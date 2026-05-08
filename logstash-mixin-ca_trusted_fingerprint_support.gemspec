@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = 'logstash-mixin-ca_trusted_fingerprint_support'
-  s.version       = "1.0.1"
+  s.version       = ::File.read('version').split("\n").first
   s.licenses      = %w(Apache-2.0)
   s.summary       = "Support for Logstash plugins wishing to use the `ca_trusted_fingerprint` support introduced in Logstash 8.3. Currently supports Apache HTTP, including Manticore"
   s.description   = "This gem is meant to be a dependency of any Logstash plugin that wishes to use ca_trusted_fingerprint introduced in Logstash 8.3 while maintaining backward-compatibility with earlier Logstash releases. When used on older Logstash versions, the provided `ca_trusted_fingerprint` option cannot be used."
