@@ -1,6 +1,6 @@
 # CA Trusted Fingerprint Support Mixin
 
-[![Build Status](https://travis-ci.com/logstash-plugins/logstash-mixin-ca_trusted_fingerprint_support.svg?branch=main)](https://travis-ci.com/logstash-plugins/logstash-mixin-ca_trusted_fingerprint_support)
+[![Unit Tests](https://github.com/logstash-plugins/logstash-mixin-ca_trusted_fingerprint_support/actions/workflows/unit-tests.yml/badge.svg?branch=main)](https://github.com/logstash-plugins/logstash-mixin-ca_trusted_fingerprint_support/actions/workflows/unit-tests.yml)
 
 This gem provides tooling for adding a `ca_trusted_fingerprint` option to Logstash Plugins that maps to an Apache SSL `TrustStrategy` for use by Manticore or Apache HTTP client.
 
